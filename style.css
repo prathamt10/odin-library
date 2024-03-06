@@ -1,34 +1,59 @@
 :root {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #111827;
+}
+
+h1 {
+    text-align: center;
 }
 
 .library-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5em;
 }
 
 .shelf {
-    width: 100vw;
-    height: 500px;
-    border: 1px solid red;
+    /* width: 80vw; */
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 1em;
+    background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
-}
-
-.add {
-    width: 200px;
-    display: flex;
-    border: 1px solid blue;
-    border-radius: 0.25em;
-    padding: 0.5em;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 0.5em;
 }
 
-.index {
+.add {
+    width: 12em;
+    height: 12em;
+    margin: 0.5em;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 0.25em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-div {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.book-card {
+    width: 12em;
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border: 1px solid white;
+    background-color: #1e2839;
+    border-radius: 0.5em;
 }
