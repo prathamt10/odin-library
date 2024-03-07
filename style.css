@@ -28,12 +28,12 @@ h1 {
 }
 
 .add {
-    width: 12em;
+    width: 13em;
     height: 12em;
     margin: 0.5em;
     display: flex;
     border: 1px solid white;
-    border-radius: 0.25em;
+    border-radius: 0.5em;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
